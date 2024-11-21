@@ -4,9 +4,9 @@ let bnar = bn.split(''); //areglo del numero binario
 let e = bnar.length; // Longitud del num binario
 let n = 0; // Posicion del digito
 let d = 0; // Valor en decimal
-let ud = bnar.slice(); // Ultimo digito
 
 while(n<e){
+    let ud = parseInt(bnar[e - 1 - n]); 
     d = d + (ud*2**n)
     n++
 }
