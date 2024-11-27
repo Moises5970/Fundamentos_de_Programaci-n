@@ -1,3 +1,4 @@
+//JOSÉ MOISÉS MARTÍNEZ HERNÁNDEZ
 //Conversion de binario a decimal
 let bn = prompt("Ingresa el numero binario"); // Numero en binario
 let bnar = bn.split(''); //areglo del numero binario
